@@ -1,6 +1,7 @@
 <template>
-  <div class="flex gap-3 p-3 bg-blue-200 justify-center">
-    <CategoryComponent
+  <div class="px-20 bg-blue-200">
+    <div class="grid grid-cols-2 md:grid-cols-5 xl:grid-cols-10 p-5 gap-4 justify-items-center">
+      <CategoryComponent
       v-for="category in categories"
       :key="category.id"
       :title="category.title"
@@ -8,15 +9,17 @@
       :itemCount="category.itemCount"
       :bgColor="category.bgColor"
     />
+    </div>
     <PromotionComponent />
   </div>
 </template>
-<script>
+<script lang="ts">
 import CategoryComponent from './components/CategoryComponent.vue'
 import PromotionComponent from './components/PromotionComponent.vue'
 export default {
   components: {
     CategoryComponent,
+    PromotionComponent,
   },
   data() {
     return {
