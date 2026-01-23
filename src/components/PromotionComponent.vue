@@ -45,7 +45,7 @@ const promotionData = ref([
   {
     id: 1,
     title: 'Everyday Fresh & Clean with Our Products',
-    image: '/public/Cms-04 1.png',
+    image: 'Cms-04 1.png',
     backgroundColor: '#F0E8D5',
     button: {
       text: 'Shop Now',
@@ -55,7 +55,7 @@ const promotionData = ref([
   {
     id: 2,
     title: 'Make your Breakfast Healthy and Easy',
-    image: '/public/Cat-01 1.png',
+    image: 'Cat-01 1.png',
     backgroundColor: '#F3E8E8',
     button: {
       text: 'Shop Now',
@@ -66,7 +66,7 @@ const promotionData = ref([
     id: 3,
     title: 'The best Organic Products Online',
     description: 'Enjoy free shipping on orders over $100.',
-    image: '/public/Cms-03 1.png',
+    image: 'Cms-03 1.png',
     backgroundColor: '#E7EAF3',
     button: {
       text: 'Shop Now',
